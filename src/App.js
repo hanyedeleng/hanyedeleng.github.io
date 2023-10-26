@@ -8,11 +8,11 @@ import {
 import { FluentProvider, teamsLightTheme } from "@fluentui/react-components";
 import { createDarkTheme, createLightTheme } from "@fluentui/react-components";
 
-//  import type { BrandVariants, Theme } from "@fluentui/react-components";
-
 import Home from "./pages/Home";
 import Header from "./sharedComponents/Header";
 
+// https://react.fluentui.dev/?path=/docs/theme-theme-designer--page
+// key color value: #507300
 const gxBlogTheme = {
   10: "#030401",
   20: "#171B08",
