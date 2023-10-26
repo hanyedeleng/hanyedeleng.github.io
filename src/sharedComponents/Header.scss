@@ -1,0 +1,22 @@
+.header-container {
+    // border-bottom: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px;
+    padding: 8px 12px;
+    display: flex;
+
+    .get-started-container {
+        margin-left: auto;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .menu-container {
+        display: flex;
+        gap: 20px;
+        font-size: 24px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
