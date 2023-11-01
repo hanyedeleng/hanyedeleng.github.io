@@ -1,0 +1,99 @@
+// @import "./globalstyle/variables.scss";
+
+html {
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 24px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.max-width {
+    max-width: 1330px;
+}
+
+div,
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.app-container {
+    min-height: 100vh;
+    margin: 0 auto;
+    // color: "white";
+    padding-left: 16px;
+    padding-right: 16px;
+    background-size: cover;
+
+    // common css rules
+    .ml-auto {
+        margin-left: auto;
+    }
+
+    .mb-8 {
+        margin-bottom: 8px;
+    }
+
+    .mt-8 {
+        margin-top: 8px;
+    }
+
+    .page-width-container {
+        // display: flex;
+        max-width: 1330px;
+        margin: 0 auto;
+    }
+}
+
+
+// @media screen and (max-width: 1280px) {
+//   .breadcrumb-under-result-page-container {
+//     margin-left: 0;
+//   }
+// }
+
+// @media screen and (min-width: $screen-sm-max) {
+//   .page-layout {
+//     .page-content-container {
+//       padding: 0 4rem 0;
+//     }
+//   }
+// }

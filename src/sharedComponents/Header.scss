@@ -4,8 +4,13 @@
     padding: 8px 12px;
     display: flex;
 
-    .get-started-container {
+
+    .first-button-container {
         margin-left: auto;
+    }
+
+    .last-button-container {
+        margin-left: 16px;
     }
 
     ul {
@@ -19,4 +24,8 @@
         font-weight: 700;
         cursor: pointer;
     }
+}
+
+.dark-mode {
+    box-shadow: rgba(247, 246, 246, 0.938) 0px 1px 0px;
 }
